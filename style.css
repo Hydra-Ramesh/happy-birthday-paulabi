@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4f4f3;
+}
+
+header {
+    background-color:pink;
+    color:black;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.birthday-person {
+    flex-basis: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.birthday-person img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.birthday-message {
+    flex-basis: 40%;
+    margin: 20px;
+    padding: 20px;
+    background-color:rgb(185, 229, 243);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.birthday-countdown {
+    flex-basis: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.birthday-gifts {
+    flex-basis: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: skyblue;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.birthday-gifts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.birthday-gifts li {
+    margin: 10px;
+}
+
+.birthday-gifts img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
